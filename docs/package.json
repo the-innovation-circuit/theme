@@ -1,7 +1,5 @@
 {
-  "name": "@hackclub/theme-docs",
   "version": "0.0.1",
-  "author": "Lachlan Campbell (https://lachlanjc.me) <lachlan@hackclub.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
