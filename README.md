@@ -3,7 +3,7 @@
 [The Innovation Circuit](https://innovationcircuit.co)’s frontend design system/tools,
 made for [Theme UI](https://theme-ui.com). Forked from [Hack Club](https://hackclub.com)'s [theme](https://theme.hackclub.com).
 
-<!-- > For getting started, check out [theme-starter](https://github.com/hackclub/theme-starter)! -->
+> To get started, check out [theme-starter](https://github.com/the-innovation-circuit/theme-starter)!
 
 ## Packages
 
