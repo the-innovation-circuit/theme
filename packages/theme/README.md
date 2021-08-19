@@ -1,13 +1,13 @@
-# @hackclub/theme
+# @the-innovation-circuit/theme
 
-[Theme UI](https://theme-ui.com) theme for [Hack Club](https://hackclub.com)
+[Theme UI](https://theme-ui.com) theme for [The Innovation Circuit](http://innovationcircuit.co/). Forked from [Hack Club](https://hackclub.com)'s [theme](https://theme.hackclub.com).
 
 ```bash
-yarn add @hackclub/theme
-# npm i @hackclub/theme
+yarn add @the-innovation-circuit/theme
+# npm i @the-innovation-circuit/theme
 ```
 
-Check out theme: [**theme.hackclub.com**](https://theme.hackclub.com)
+Check out theme: [**theme.innovationcircuit.co**](http://theme.innovationcircuit.co/)
 
 ## Usage
 
@@ -22,12 +22,11 @@ export default ({ children }) => (
 
 ### Fonts
 
-This package also bundles 3 CSS files that include Hack Club’s webfonts:
-`reg.css`, `reg-bold.css`, & `reg-ital-bold.css`.
+This package also bundles a CSS file that includes our webfonts: `fonts.css`.
 To use, just import straight from the package:
 
 ```js
-import '@hackclub/theme/fonts/reg-bold.css'
+import '@hackclub/theme/fonts/fonts.css'
 ```
 
 (In a Next.js project, [place](https://nextjs.org/docs/basic-features/built-in-css-support) in the `pages/_app.js` file.)
