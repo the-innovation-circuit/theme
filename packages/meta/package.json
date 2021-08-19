@@ -1,6 +1,6 @@
 {
-  "name": "@hackclub/meta",
-  "description": "Generate meta tags for Hack Club pages",
+  "name": "@the-innovation-circuit/meta",
+  "description": "Generate meta tags for the Innovation Circuit's webpages",
   "version": "1.1.32",
   "source": "src/index.js",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackclub/theme.git",
+    "url": "https://github.com/the-innovation-circuit/theme.git",
     "directory": "packages/meta"
   },
   "peerDependencies": {

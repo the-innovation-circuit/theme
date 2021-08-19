@@ -14,4 +14,8 @@ made for [Theme UI](https://theme-ui.com). Forked from [Hack Club](https://hackc
 
 The docs site source is in `/docs`. It is made with Next.js & deployed on Vercel.
 
+## Credits
+
+This project is forked from and uses a ton of code from [Hack Club](https://hackclub.com)'s [theme](https://theme.hackclub.com). Shoutout to [@lachlanjc](https://github.com/lachlanjc) for creating the original theme.
+
 [**theme.innovationcircuit.co**](https://theme.innovationcircuit.co)

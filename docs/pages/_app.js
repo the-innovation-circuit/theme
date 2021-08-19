@@ -1,8 +1,7 @@
 import * as React from 'react'
 import NextApp from 'next/app'
-
-import '@hackclub/theme/fonts/reg-ital-bold.css'
-import theme from '@hackclub/theme'
+import '@the-innovation-circuit/theme/fonts/fonts.css'
+import theme from '@the-innovation-circuit/theme'
 import { ThemeProvider } from 'theme-ui'
 
 export default class App extends NextApp {

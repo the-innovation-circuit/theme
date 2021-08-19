@@ -20,28 +20,28 @@ import {
   Textarea
 } from 'theme-ui'
 import Head from 'next/head'
-import Meta from '@hackclub/meta'
-import theme from '@hackclub/theme'
+import Meta from '@the-innovation-circuit/meta'
+import theme from '@the-innovation-circuit/theme'
 import ColorSwitcher from '../components/color-switcher'
 import { TypeScale, ColorPalette } from '@theme-ui/style-guide'
 
 const DocsPage = () => (
   <>
     <Head>
-      <title>Hack Club Theme</title>
+      <title>The Innovation Circuit Theme</title>
       <Meta
         name="Theme"
-        description="Hack Club’s theme + React components for Theme UI"
+        description="The Innovation Circuit’s theme + React components for Theme UI"
       />
     </Head>
     <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
-        <Heading as="h1" variant="title" color="red">
-          Hack Club Theme
+        <Heading as="h1" variant="title" color="primary">
+          The Innovation Circuit Theme
         </Heading>
         <Text as="p" variant="subtitle" mt={3}>
-          <Link href="https://hackclub.com/">Hack Club’s</Link> theme + React
+          <Link href="https://innovationcircuit.co/">The Innovation Circuit’s</Link> theme + React
           components for <Link href="https://theme-ui.com">Theme UI</Link>.
         </Text>
         <Grid
@@ -56,8 +56,8 @@ const DocsPage = () => (
             a: { color: 'muted', transition: 'color .125s ease-in-out' }
           }}
         >
-          <NavLink href="https://github.com/hackclub/theme">GitHub</NavLink>
-          <NavLink href="https://npmjs.com/package/@hackclub/theme">
+          <NavLink href="https://github.com/the-innovation-circuit/theme">GitHub</NavLink>
+          <NavLink href="https://npmjs.com/package/@the-innovation-circuit/theme">
             NPM
           </NavLink>
           <NavLink href="https://github.com/hackclub/theme-starter">
@@ -165,11 +165,11 @@ const DocsPage = () => (
         <Heading variant="headline">Forms</Heading>
         <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken">
           <Label>
-            Full name
-            <Input placeholder="Zach Latta" />
+            Name
+            <Input placeholder="Dr. Ong" />
           </Label>
           <Label>
-            How are you primarily associated with Hack Club?
+            How are you primarily associated with The Innovation Circuit?
             <Select>
               <option value="" disabled hidden>
                 Select one…
@@ -177,7 +177,7 @@ const DocsPage = () => (
               <option value="club-leader">I lead a club</option>
               <option value="club-member">I am a club member</option>
               <option value="slack-member">I am active on Slack</option>
-              <option value="alum">I am a Hack Club alum</option>
+              <option value="alum">I am a The Innovation Circuit alum</option>
               <option value="none">None of the above</option>
             </Select>
           </Label>

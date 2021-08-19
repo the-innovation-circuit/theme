@@ -13,7 +13,7 @@ Check out theme: [**theme.innovationcircuit.co**](http://theme.innovationcircuit
 
 ```js
 import { ThemeProvider } from 'theme-ui'
-import theme from '@hackclub/theme'
+import theme from '@the-innovation-circuit/theme'
 
 export default ({ children }) => (
   <ThemeProvider theme={theme}>{children}</ThemeProvider>
@@ -26,7 +26,7 @@ This package also bundles a CSS file that includes our webfonts: `fonts.css`.
 To use, just import straight from the package:
 
 ```js
-import '@hackclub/theme/fonts/fonts.css'
+import '@the-innovation-circuit/theme/fonts/fonts.css'
 ```
 
 (In a Next.js project, [place](https://nextjs.org/docs/basic-features/built-in-css-support) in the `pages/_app.js` file.)
