@@ -19,7 +19,7 @@ const colors = {
   green: '#33d6a6',
   cyan: '#5bc0de',
   blue: '#338eda',
-  purple: '#a633d6',
+  purple: '#674ea7ff',
 
   twitter: '#1da1f2',
   facebook: '#3b5998',
@@ -44,9 +44,9 @@ const theme = {
     border: colors.smoke,
     placeholder: colors.muted,
     secondary: colors.slate,
-    primary: colors.red,
+    primary: colors.purple,
     muted: colors.muted,
-    accent: colors.blue,
+    accent: colors.smoke,
     modes: {
       dark: {
         text: colors.white,
@@ -64,9 +64,9 @@ const theme = {
   },
   fonts: {
     heading:
-      '"Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+      '"Fira Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     body:
-      '"Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+      '"Fira Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     monospace: '"SF Mono", "Roboto Mono", Menlo, Consolas, monospace'
   },
   lineHeights: {
